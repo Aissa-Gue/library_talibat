@@ -1,0 +1,17 @@
+.background-img {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(100, 200, 255, 0.5)),
+  url(../img/cover.jpg) center / cover no-repeat fixed;
+}
+
+.uk-table th{
+  text-align: center;
+}
+.table_head{
+  background: #0f7ae5;
+}
+.uk-table th{
+  color: #dfdfdf;
+}
+.uk-button{
+  border-radius: 5px;
+}

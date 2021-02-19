@@ -1,0 +1,31 @@
+.uk-container-expand{
+    margin-top: -2vh;
+}
+.banner-img {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/banner.jpg) center / cover no-repeat fixed;
+    position: relative;
+}
+header > a > img{
+    width: 100vw;
+    height: 25vh;
+}
+.uk-input{
+    border-radius: 5px;
+    font-size: 17px;
+}
+.uk-card-primary{
+    background: #00b4d8;
+    border-radius: 50px;
+}
+.uk-card-title{
+    color: #d8eafc;
+}
+table, .uk-table th{
+    font-size: 18px;
+}
+.uk-form-label{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 1rem;
+}

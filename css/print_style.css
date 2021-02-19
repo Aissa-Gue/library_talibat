@@ -1,0 +1,163 @@
+:root {
+  --input_color: rgb(8, 8, 1);
+  --primary_color: rgb(117, 2, 2);
+  --border: var(--input_color) 1px solid;
+  --padding: 5px 3px;
+}
+
+h1 {
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  border: 4px black double;
+  margin: 2vh 38vw;
+  border-radius: 5px;
+  padding: var(--padding);
+  font-size: 1.2em;
+}
+
+.global_div {
+  border: 3px black double;
+  border-radius: 5px;
+  margin: 2px 1vw;
+}
+
+.first_block {
+  float: right;
+  width: 45vw;
+  direction: rtl;
+  margin: 2px 0.5vw;
+  font-size: 0.6em;
+}
+
+.second_block {
+  width: 45vw;
+  direction: rtl;
+  margin: 2px 0.5vw;
+  font-size: 0.6em;
+}
+
+span {
+  color: red;
+  text-decoration: underline;
+}
+
+.input_div {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3vh;
+  margin-right: 8vw;
+  direction: rtl;
+}
+
+input {
+  text-align: center;
+  padding: 3px 0px;
+  border: 2px solid;
+}
+
+/*hide input number arrows %chrome and firefox browser */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#end_label {
+  margin-right: 3vw;
+  direction: rtl;
+}
+
+#submit {
+  color: #ffff99;
+  margin-right: 1vw;
+  padding: 7px 20px;
+  border: 1px solid #ffff99;
+  border-radius: 8px;
+  background-color: #80b918;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table, th, td {
+  direction: rtl;
+  border: var(--border);
+  text-align: center;
+}
+
+.table {
+  margin-left: 9%;
+  margin-top: 3vh;
+  display: inline-block;
+  border-left: 0px;
+}
+
+.th_date,
+.td_date {
+  width: 35vw;
+  padding: 0.5vh;
+  font-size: 0.8em;
+}
+
+.th,
+.td {
+  width: 20vw;
+  font-size: 0.8em;
+}
+
+#no_result {
+  text-align: center;
+}
+
+.icon {
+  height: 55px;
+  width: 55px;
+}
+
+.home {
+  position: fixed;
+  left: 1vw;
+  bottom: 19.5vh;
+}
+
+.search {
+  position: fixed;
+  left: 1vw;
+  bottom: 10vh;
+}
+
+.print {
+  position: fixed;
+  left: 1vw;
+  bottom: 1vh;
+}
+
+h1:hover {
+  color: #c80000;
+  background: #32d296;
+  cursor: context-menu;
+}
+
+#delete {
+  border: 0px;
+}
+
+#del_icon {
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+}
+
+#del_icon:hover {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+#submit:hover{
+  background: #faa05a;
+  color: #edfbf6;
+}

@@ -1,0 +1,31 @@
+.background-img {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(200, 200, 255, 0.8)),
+    url(../img/cover.jpg) center / cover no-repeat fixed;
+
+}
+.uk-table th{
+    background: #3399ff;
+    color: #f8f8f8;
+    text-align: center;
+}
+* + .uk-table{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    min-height: 100%;
+}
+.uk-button{
+    border-radius: 5px;
+}
+.uk-button-primary{
+    background: #32d296;
+}
+.uk-button-primary:hover{
+    background: #57b846;
+}
+.uk-input{
+    border-radius: 5px;
+}
+.large_height{
+}

@@ -1,0 +1,14 @@
+.uk-container-expand{
+  margin-top: -4vh;
+}
+.background-img {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(100, 200, 255, 0.5)),
+  url(../img/cover.jpg) center / cover no-repeat fixed;
+  min-height: 60vh;
+  min-width: 100vw;
+  position: relative;
+}
+.uk-input{
+  margin-top: 7px;
+  margin-bottom: 9px;
+}
