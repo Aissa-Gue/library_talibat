@@ -1,11 +1,18 @@
 ﻿<?php
 //the line bellow used to ignore php errors
 //error_reporting(E_ERROR | E_PARSE);
-/////
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "library_talibat_db";
+
+//**** Development db ****//
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "library_talibat_db";
+
+//**** Production db ****//
+$servername = "remotemysql.com";
+$username = "x0M3sYm488";
+$password = "Ld08Gw6Apw";
+$dbname = "x0M3sYm488";
 
 $con = mysqli_connect($servername, $username, $password);
 $db_selected = mysqli_select_db($con, $dbname);
